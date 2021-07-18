@@ -15,24 +15,37 @@ Therefore, many commonly used geospatial python packages will not be included in
 
 ### Usefulness
 
-I'd like you coming away from this feeling like you are more useful to those you work with. Whatever geospatial discipline you are in, from GIS analytics to spatial data science, I hope you will come away from this as a geospatial python programmer with the ability to provide quality code that is innovative and ready for integration and production. 
+I'd like you coming away from this feeling like you are more useful to those you work with. Whatever geospatial discipline you are in, from GIS analytics to spatial data science or just starting out, I hope you will come away from this as a geospatial python programmer with the ability to provide quality code that is innovative and ready for integration and production. 
+
+All of these packages are easy to install with pip and therefore you will be able to start writing creative code without hours (or days) of banging you head against the wall trying to debug instillation errors. Having an OS independent approach means your code be run wherever. Aiming for pure-python will allow your code to be pickled and make it scalable friendly.
+
+## Prerequisites 
+
+Must:
+
+- Decent mathematical ability
+- Python scripting
+
+Should:
+
+- git
 
 ## Table of Contents
 
-### Point
+### Setting up a Geospatial Python Project
 
-- Latitude and Longitude 
-- Northings and Eastings
-- Elevation
+- make a vertical environment
+- set up your module
+- initialize git
+- Install and folium
+
+### Plotting Points on a Map
+
+- Coordinates (lat, lon)
 - loading data from file
-- csv
-
-### Visualization 
-
-- pillow
-- svg
-- folium
-- dash-plotly
+- Reading and writing text files
+- The json module
+- The csv package
 
 ### Vector
 
@@ -46,13 +59,20 @@ I'd like you coming away from this feeling like you are more useful to those you
 - geotiff
 - numpy
 - xarray (netcdf)
-- mercantils 
+- mercantile and leaflet APIs 
 
 ### Conversions 
 
 - utm
 - PyProj
 - pycrs
+
+### Visualization 
+
+- folium
+- Python Imaging Library - pillow
+- The svg package
+- dash-plotly
 
 ### Interpolation and Analysis 
 
@@ -65,8 +85,8 @@ I'd like you coming away from this feeling like you are more useful to those you
 
 ### Processing
 
+- zarr
 - dask
 - numba
+- CuPy
 - PyTorch
-
-
